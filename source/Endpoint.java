@@ -1,5 +1,5 @@
 public class Endpoint {
-	private idEndpoint;
+	private int idEndpoint;
 	private List<Couple> tab;
 
 	public Endpoint(int id)
