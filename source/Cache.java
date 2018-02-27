@@ -11,7 +11,7 @@ public class Cache {
   }
 
   public void addVideo(Video v) {
-	  	if(capaciteRestante - v.length >= 0) {
+	  	if(capaciteRestante - v.getLength() >= 0) {
 	  		list.add(v);
 	  		capaciteRestante - v.length;
 	  	}
