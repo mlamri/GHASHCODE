@@ -1,6 +1,6 @@
 public class Endpoint {
 	private idEndpoint;
-	private List<int,Cache> tab;
+	private List<Couple> tab;
 
 	public Endpoint(int id)
 	{
