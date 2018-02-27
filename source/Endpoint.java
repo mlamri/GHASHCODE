@@ -1,7 +1,6 @@
 public class Endpoint {
-	
 	private idEndpoint;
-	private Cache tab[];
+	private List<int,Cache> tab;
 
 	public Endpoint(int id)
 	{
