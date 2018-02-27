@@ -2,7 +2,7 @@ public class Video {
 	private int idVideo;
 	private int length;
 	
-	public Video (int id, int l )
+	public Video (int id)
 	{
 		idVideo = id;
 		lenght = l;
